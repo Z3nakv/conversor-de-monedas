@@ -18,7 +18,7 @@ public class Main {
 
         Double tasa = exchangeType.conversionRates().get(tipoDeConversion.toUpperCase());
 
-        System.out.println("Tipo de cambio:");
+        System.out.println("Tipo de cambio: ");
         System.out.println(tipoDeMoneda.toUpperCase() + cantidad + " equivale a " + tipoDeConversion.toUpperCase() + cantidad * tasa);
 
     }
